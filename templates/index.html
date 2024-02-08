@@ -1,0 +1,168 @@
+
+
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %}
+<div class="container my-4 px-0">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <div class="text-end">
+                            <h1>Apil Ice Cream Shop</h1>
+                            <p>Delicious ice cream flavors to cool you down</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1549395156-e0c1fe6fc7a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8" class="d-block w-100" height="600" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <div class="text-end">
+                            <h1>Apil Ice Cream Shop</h1>
+                            <p>Delicious ice cream flavors to cool you down</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1563589173312-476d8c36b242?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fHww" class="d-block w-100" height="600" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-8"></div>
+                    <div class="col-md-4">
+                        <div class="text-end">
+                            <h1>Apil Ice Cream Shop</h1>
+                            <p>Delicious ice cream flavors to cool you down</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://plus.unsplash.com/premium_photo-1678198786424-c2cc6593f59c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGljZSUyMGNyZWFtfGVufDB8fDB8fHww" class="d-block w-100" height="600" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<div class="container my-5">
+  <h1 class="my-2 text-center">Select From a range of IceCream</h1>
+  <br>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1628585352636-f4a24c2e17d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGljZWNyZWFtfGVufDB8fDB8fHww" class="card-img-top" alt="Image">
+      <div class="card-body">
+        <p class="card-text">Strawberry Black: A refreshing and fruity flavor made from ripe strawberries, known for its vibrant pink color and sweet, tangy taste.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-body-secondary">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+        <img src="https://plus.unsplash.com/premium_photo-1677528816812-324bcbc83b85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aWNlY3JlYW18ZW58MHx8MHx8fDA%3D" height = "500" class="card-img-top" alt="Image">
+        <div class="card-body">
+            <p class="card-text">Mint: A refreshing and invigorating flavor featuring a combination of cool peppermint or spearmint with creamy ice cream, offering a delightful contrast of flavors.</p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://plus.unsplash.com/premium_photo-1673580059872-b1307361f234?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGljZWNyZWFtfGVufDB8fDB8fHww" height = "500" class="card-img-top" alt="Image">
+      <div class="card-body">
+        <p class="card-text">Black Cakes: A decadent flavor typically featuring a rich, dark chocolate base with pieces of cake or brownie mixed in, offering a satisfyingly indulgent experience.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-body-secondary">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://media.istockphoto.com/id/1413060909/photo/various-flavors-ice-cream-scoops-in-cups-with-berries-on-table.webp?b=1&s=170667a&w=0&k=20&c=wKHOcuvfLUUkx-cpvOj7HrlnGgNpNO5xAV3mPXnN_Jg="  class="card-img-top" alt="Image">
+      <div class="card-body">
+        <p class="card-text">Vanilla: A classic flavor known for its creamy texture and rich, slightly sweet taste, often used as a base for various desserts and toppings.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-body-secondary">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1701108515482-a6c5c463ee96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8" class="card-img-top" alt="Image">
+      <div class="card-body">
+        <p class="card-text">White Cake: A delightful flavor inspired by classic white cake, often featuring hints of vanilla and butter, reminiscent of a freshly baked cake, ideal for those who enjoy a light and sweet dessert experience.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-body-secondary">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card shadow-sm">
+      <img src="https://images.unsplash.com/photo-1683575755175-ee135650246a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D" height = "300" class="card-img-top" alt="Image">
+      <div class="card-body">
+        <p class="card-text">Chocolate: A beloved flavor characterized by its deep, indulgent cocoa taste, perfect for chocolate enthusiasts seeking a rich and satisfying treat.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+          </div>
+          <small class="text-body-secondary">9 mins</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+</div>
+{% endblock body %}
